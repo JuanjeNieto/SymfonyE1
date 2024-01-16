@@ -3,3 +3,13 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+    
+# config/routes.yaml
+
+about:
+    resource: ../src/Controller/PageController.php
+    type: annotation
+
+redirect:
+    resource: ../src/Controller/PageController.php
+    type: annotation
